@@ -1,0 +1,9 @@
+systemctl enable ssh
+systemct  start ssh
+
+apt purge nftables
+systemctl mask dhcpcd.service
+
+ apt purge bind9*
+
+apt purge dhcpcd5
